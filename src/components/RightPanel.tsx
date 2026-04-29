@@ -5,8 +5,8 @@ import { ChevronRight, ExternalLink, Info, TrendingUp, TrendingDown, Minus, X } 
 import { CountryData } from '@/app/page';
 
 interface RightPanelProps {
-  rankingData: (CountryData & { rank: number, trend: string })[];
-  selectedCountry: CountryData & { rank: number, trend: string };
+  rankingData: (CountryData & { rank: number, trend: string, score: number, level: string })[];
+  selectedCountry: CountryData & { rank: number, trend: string, score: number, level: string };
   setSelectedCountryId: (id: string) => void;
   setActiveTab: (tab: string) => void;
 }
