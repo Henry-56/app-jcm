@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "despliega": "powershell -ExecutionPolicy Bypass -File deploy.ps1"
   },
   "dependencies": {
     "@types/d3-scale": "^4.0.9",
