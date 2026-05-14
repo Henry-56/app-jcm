@@ -3,7 +3,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
   LayoutDashboard,
-  BarChart3,
   Settings2,
   FileText,
   Layers,
@@ -15,7 +14,6 @@ import {
 const menuItems = [
   { icon: LayoutDashboard, label: "Dashboard" },
   { icon: Layers, label: "Catálogo de Productos" },
-  { icon: BarChart3, label: "Ranking de Países" },
   { icon: Settings2, label: "Costos e Incoterms" },
   { icon: MapPin, label: "Seguimiento" },
   { icon: Globe, label: "Convenios" },
